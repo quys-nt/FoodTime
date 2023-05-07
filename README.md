@@ -1,4 +1,6 @@
 # FoodTime
+Author: Quys_nt
+
 Quys_nt of the FoodTime project
 
 Design: Online Food ordering website Landing page `By Nayeemur Rahman Sakib`.
