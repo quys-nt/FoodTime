@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?lp=$1 [L,QSA]
+</IfModule>
