@@ -35,7 +35,7 @@
       </div>
     </div>
   </section>
-  <!-- End section mainvisual. -->
+  <!-- End section Mainvisual. -->
 
   <section class="p-home__ex">
     <div class="container">
@@ -58,4 +58,36 @@
       </div>
     </div>
   </section>
+  <!-- End section Explore. -->
+
+  <div class="p-home__service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="p-home__service--item">
+            <img src="../../FoodTime/assets/imgs/icon-service-01.svg" alt="icon service">
+            <p class="c-text__h4 mb-2 mt-4">Wide selection of restaurants</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-home__service--item">
+            <img src="../../FoodTime/assets/imgs/icon-service-02.svg" alt="icon service">
+            <p class="c-text__h4 mb-2 mt-4">Easy ordering<br> process</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-home__service--item">
+            <img src="../../FoodTime/assets/imgs/icon-service-03.svg" alt="icon service">
+            <p class="c-text__h4 mb-2 mt-4">Fast delivery<br> within 20 min</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section Service. -->
+
+  
 </main>

@@ -88,4 +88,18 @@
       }
     }
   }
+
+  &__service {
+    padding: 105px 0;
+
+    &--item {
+      padding: 60px 50px;
+      border-radius: 15px;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: rgb(57 108 3 / 15%);
+      }
+    }
+  }
 }
