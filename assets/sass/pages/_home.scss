@@ -1,4 +1,6 @@
 .p-home {
+  overflow: hidden;
+
   &__mv {
     padding: 132px 0 96px;
     background-color: rgb(107 145 66 / 10%);
@@ -72,6 +74,18 @@
       top: 50%;
       left: 10px;
       transform: translateY(-50%);
+    }
+  }
+
+  &__ex {
+    padding: 50px 0;
+    background-color: rgb(255 139 0 / 5%);
+
+    &--right {
+      img {
+        mix-blend-mode: darken;
+        max-width: inherit;
+      }
     }
   }
 }

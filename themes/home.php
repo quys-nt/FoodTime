@@ -1,4 +1,4 @@
-<main>
+<main class="p-home">
   <section class="p-home__mv">
     <img src="../../FoodTime/assets/imgs/img-mv-02.png" alt="img food img" class="p-home__mv--icon p-home__mv--icon01">
     <div class="container">
@@ -9,7 +9,7 @@
           </h1>
           <p class="c-text__mer mb-4">Freshly made food delivered to your door.</p>
           <form action="#">
-            <div class="d-flex mb-5 rounded-pill p-home__form">
+            <div class="d-flex mb-5 rounded-pill p-home__form bg-white">
               <img src="../../FoodTime/assets/imgs/icon-search-01.svg" alt="icon search 01" class="icon">
               <input type="text" class="form-control border-0" placeholder="Enter your location">
               <button class="btn c-btn__primary" type="submit">
@@ -30,6 +30,29 @@
               </div>
               <p class="mb-0 p-home__mv--textBottom">People Delivered</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End section mainvisual. -->
+
+  <section class="p-home__ex">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="d-flex flex-column align-items-start h-100 justify-content-center">
+            <h2 class="c-text__mer u-color__pri c-text__h2">Explore your<br> favourite city’s food.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis maecenas. At egestas auctor porta mattis.</p>
+            <a class="btn c-btn__primary" ahref="#">
+              Explore
+              <img src="../../FoodTime/assets/imgs/icon-arrow-01.svg" alt="icon arrow" class="ms-2">
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="position-relative p-home__ex--right">
+            <img src="../../FoodTime/assets/imgs/img-ex-01.png" alt="img ex 01">
           </div>
         </div>
       </div>
