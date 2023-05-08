@@ -23,7 +23,7 @@
   <header class="c-header">
     <div class="container">
       <div class="c-header__inner">
-        <a href="/">
+        <a href="/FoodTime">
           <img src="../../FoodTime/assets/imgs/logo-01.svg" alt="logo foodtime">
         </a>
         <div class="c-header__text">
