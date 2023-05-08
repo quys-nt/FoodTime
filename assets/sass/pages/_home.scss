@@ -142,6 +142,7 @@
       text-align: center;
       transform: translateX(-50%);
       color: #fff;
+      z-index: 2;
     }
   }
 
@@ -223,5 +224,10 @@
         transform: translate(-50%, -50%) rotate(90deg);
       }
     }
+  }
+
+  &__pocket {
+    background-color: rgb(255 139 0 / 10%);
+    padding: 40px 0;
   }
 }
