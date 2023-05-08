@@ -1,0 +1,47 @@
+.c-btn {
+  &__primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary01;
+    color: #fff;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 12px 50px;
+
+    &:hover {
+      color: #fff;
+      opacity: 0.7;
+    }
+  }
+
+  &__round {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 100%;
+
+    &--text {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 26px;
+      height: 26px;
+      font-weight: 700;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $secondary01;
+      color: #fff;
+    }
+  }
+}
+
+button {
+  .c-btn__primary {
+    font-size: 22px;
+  }
+}

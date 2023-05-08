@@ -1,0 +1,50 @@
+.p-home {
+  &__mv {
+    padding: 132px 0 96px;
+
+    &--img {
+      position: relative;
+
+      &02 {
+        position: relative;
+        z-index: 1;
+      }
+    }
+
+    &--icon {
+      position: absolute;
+      filter: blur(2.5px);
+      pointer-events: none;
+      &01 {
+        top: 100px;
+        left: -40px;
+      }
+
+      &02 {
+        top: -55px;
+        right: -70px;
+      }
+    }
+  }
+
+  &__form {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(57 108 3 / 30%);
+
+    input {
+      padding: 16px 20px 16px 74px;
+
+      &::placeholder {
+        color: #C7C7C7;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+    }
+  }
+}
