@@ -23,6 +23,13 @@
           <div class="p-home__mv--img">
             <img src="../../FoodTime/assets/imgs/img-mv-02.png" alt="img food img" class="p-home__mv--icon p-home__mv--icon02">
             <img src="../../FoodTime/assets/imgs/img-mv-01.png" alt="img food img" class="p-home__mv--img02">
+            <div class="position-absolute d-flex flex-column align-items-center p-home__mv--deli">
+              <div class="d-flex align-items-center">
+                <img src="../../FoodTime/assets/imgs/icon-check-01.svg" alt="icon search 01" class="icon">
+                <p class="mb-0 ms-3 u-color__sec p-home__mv--textRight">200k+</p>
+              </div>
+              <p class="mb-0 p-home__mv--textBottom">People Delivered</p>
+            </div>
           </div>
         </div>
       </div>

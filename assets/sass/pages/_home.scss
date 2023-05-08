@@ -1,6 +1,7 @@
 .p-home {
   &__mv {
     padding: 132px 0 96px;
+    background-color: rgb(107 145 66 / 10%);
 
     &--img {
       position: relative;
@@ -15,6 +16,7 @@
       position: absolute;
       filter: blur(2.5px);
       pointer-events: none;
+
       &01 {
         top: 100px;
         left: -40px;
@@ -23,6 +25,31 @@
       &02 {
         top: -55px;
         right: -70px;
+      }
+    }
+
+    &--deli {
+      top: -85px;
+      left: 30%;
+      background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.4) 100%);
+      backdrop-filter: blur(6px);
+      padding: 18px 28px;
+      border-radius: 8px;
+      z-index: 4;
+    }
+
+    &--text {
+      &Right {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.3;
+      }
+
+      &Bottom {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 1.3;
+        color: #838383;
       }
     }
   }
