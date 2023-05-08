@@ -6,6 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>/assets/imgs/favicon.ico">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="<?= BASE_URL ?>/assets/vendor/css/bootstrap.min.css">

@@ -191,11 +191,21 @@
   <section class="p-home__pocket">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
-          <h2 class="u-color__pri">Put us in your pocket</h2>
-          <p>Download our app from google play or app store and you don’t have to be worry about your food anymore. </p>
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h2 class="u-color__pri p-home__pocket--title">Put us in your pocket</h2>
+          <p class="mb-4 p-home__pocket--intro">Download our app from google play or app store and you don’t have to be worry about your food anymore. </p>
+          <div class="d-flex">
+            <a href="#">
+              <img src="../../FoodTime/assets/imgs/icon-app-store-01.svg" alt="icon app store">
+            </a>
+            <a href="#" class="ms-3">
+              <img src="../../FoodTime/assets/imgs/icon-gg-play-01.svg" alt="icon google play">
+            </a>
+          </div>
         </div>
-        <div class="col-lg-7"></div>
+        <div class="col-lg-7">
+        <img src="../../FoodTime/assets/imgs/img-pockect-01.jpg" alt="img pocket" class="p-home__pocket--img">
+        </div>
       </div>
     </div>
   </section>
