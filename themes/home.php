@@ -89,5 +89,101 @@
   </div>
   <!-- End section Service. -->
 
-  
+  <div class="p-home__part">
+    <div class="container">
+      <div class="p-home__part--inner">
+        <img src="../../FoodTime/assets/imgs/img-part-01.jpg" alt="Want to be a part of Foodtime?" class="p-home__part--img">
+        <div class="position-absolute p-home__part--box">
+          <p class="p-home__part--title">Want to be a part of Foodtime?</p>
+          <p class="p-home__part--intro">List your restaurant or shop on foodtime.</p>
+          <a class="d-inline-flex c-btn__primary bg-sec" ahref="#">
+            Get started
+            <img src="../../FoodTime/assets/imgs/icon-arrow-01.svg" alt="icon arrow" class="ms-2">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section Part. -->
+
+  <section class="p-home__faq">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="c-text__h4 u-color__pri mb-4">Frequently asked questions</h2>
+        <div class="d-flex justify-content-center">
+          <a class="btn c-btn__primary" ahref="#">General</a>
+          <a class="btn c-btn__primary btn-line ms-3" ahref="#">For business</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <label for="faq01" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq01" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+          <label for="faq02" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq02" hidden checked>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+          <label for="faq03" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq03" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+        </div>
+        <div class="col-lg-6">
+          <label for="faq04" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq04" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+          <label for="faq05" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq05" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+          <label for="faq06" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq06" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+          <label for="faq07" class="p-home__faq--item">
+            <p class="p-home__faq--title mb-0">What de I need to apply for the account?</p>
+            <input type="checkbox" id="faq07" hidden>
+            <div class="p-home__faq--icon"></div>
+            <div class="p-home__faq--content">
+              Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. <br><br>
+              Dui et est dignissim amet dis nulla vulputate. Id aenean senectus fames lobortis dolor turpis eget lacinia et.
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
