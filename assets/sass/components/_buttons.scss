@@ -10,6 +10,16 @@
     font-size: 20px;
     padding: 12px 50px;
 
+    @include media(tab02) {
+      padding: 4px 20px;
+      font-size: 18px;
+      min-height: 40px;
+    }
+
+    @include media(tab03) {
+      font-size: 16px;
+    }
+
     &:hover {
       color: #fff;
       opacity: 0.7;
@@ -33,6 +43,17 @@
     padding: 0;
     border-radius: 100%;
 
+    @include media(tab02) {
+      width: 40px;
+      height: 40px;
+    }
+
+    img {
+      @include media(tab02) {
+        width: 20px;
+      }
+    }
+
     &--text {
       position: absolute;
       top: -5px;
@@ -46,6 +67,31 @@
       justify-content: center;
       background-color: $secondary01;
       color: #fff;
+    }
+  }
+
+  &__menu {
+    position: relative;
+    width: 40px;
+    height: 34px;
+
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: $primary01;
+
+      &:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &:last-child {
+        top: auto;
+        bottom: 0;
+      }
     }
   }
 }

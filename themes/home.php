@@ -2,14 +2,14 @@
   <section class="p-home__mv">
     <img src="../../FoodTime/assets/imgs/img-mv-02.png" alt="img food img" class="p-home__mv--icon p-home__mv--icon01 c-inv" style="--delay: 0s">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-7 d-flex flex-column justify-content-end position-relative">
+      <div class="row flex-column-reverse flex-xl-row">
+        <div class="col-xl-7 d-flex flex-column justify-content-end position-relative mt-5 mt-lx-0">
           <h1 class="c-text__mer c-text__h1 u-color__pri mb-4 c-inv" style="--delay: 0s">
             Order food online <br> from your favourite <br> local restaurants<span class="u-color__sec">.</span>
           </h1>
           <p class="c-text__mer mb-4 c-inv" style="--delay: 0s">Freshly made food delivered to your door.</p>
           <form action="#">
-            <div class="d-flex mb-5 rounded-pill p-home__form bg-white c-inv" style="--delay: 0s">
+            <div class="d-flex mb-xl-5 rounded-pill p-home__form bg-white c-inv" style="--delay: 0s">
               <img src="../../FoodTime/assets/imgs/icon-search-01.svg" alt="icon search 01" class="icon">
               <input type="text" class="form-control border-0" placeholder="Enter your location">
               <button class="btn c-btn__primary" type="submit">
@@ -20,7 +20,7 @@
           </form>
         </div>
         <div class="col-xl-5">
-          <div class="p-home__mv--img">
+          <div class="p-home__mv--img text-center">
             <img src="../../FoodTime/assets/imgs/img-mv-02.png" alt="img food img" class="p-home__mv--icon p-home__mv--icon02 c-inv" style="--delay: 0s">
             <img src="../../FoodTime/assets/imgs/img-mv-01.png" alt="img food img" class="p-home__mv--img02 c-inv" style="--delay: 0s">
             <div class="position-absolute d-flex flex-column align-items-center p-home__mv--deli c-inv" style="--delay: 0s">
@@ -190,8 +190,8 @@
 
   <section class="p-home__pocket">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-5 d-flex flex-column justify-content-center">
+      <div class="row flex-column-reverse">
+        <div class="col-lg-5 d-flex flex-column justify-content-center mt-5 mt-lg-0">
           <h2 class="u-color__pri p-home__pocket--title c-inv">Put us in your pocket</h2>
           <p class="mb-4 p-home__pocket--intro c-inv">Download our app from google play or app store and you don’t have to be worry about your food anymore. </p>
           <div class="d-flex">

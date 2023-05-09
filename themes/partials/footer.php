@@ -9,8 +9,8 @@
         <p class="mt-2 mb-0 c-footer__intro">Lorem ipsum dolor sit amet consectetur. Odio amet natoque tortor convallis. Bibendum sapien suspendisse ipsum urna malesuada elit. Bibendum vitae nibh scelerisque sed aliquam ullamcorper est. </p>
       </div>
       <div class="col-lg-6">
-        <div class="d-flex justify-content-between">
-          <div class="c-footer__nav">
+        <div class="d-md-flex justify-content-between mt-5 mt-lg-0">
+          <div class="c-footer__nav mt-4 mt-md-0">
             <p class="c-footer__nav--title">Quick links</p>
             <ul class="c-footer__nav--list">
               <li class="c-footer__nav--item">
@@ -24,7 +24,7 @@
               </li>
             </ul>
           </div>
-          <div class="c-footer__nav">
+          <div class="c-footer__nav mt-4 mt-md-0">
             <p class="c-footer__nav--title">About</p>
             <ul class="c-footer__nav--list">
               <li class="c-footer__nav--item">
@@ -38,7 +38,7 @@
               </li>
             </ul>
           </div>
-          <div class="c-footer__nav">
+          <div class="c-footer__nav mt-4 mt-md-0">
             <p class="c-footer__nav--title">Social</p>
             <ul class="c-footer__nav--list">
               <li class="c-footer__nav--item">

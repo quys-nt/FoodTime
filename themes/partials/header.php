@@ -27,7 +27,7 @@
           <img src="../../FoodTime/assets/imgs/logo-01.svg" alt="logo foodtime">
         </a>
         <div class="c-header__text">
-          <ul class="c-header__nav me-5">
+          <ul class="c-header__nav d-none d-lg-flex me-5">
             <li class="c-header__item"><a href="#" class="c-header__link">Home</a></li>
             <li class="c-header__item"><a href="#" class="c-header__link">Blog</a></li>
             <li class="c-header__item"><a href="#" class="c-header__link">About us</a></li>
@@ -37,6 +37,11 @@
             <a href="#" class="ms-3 c-btn__primary c-btn__round">
               <img src="../../FoodTime/assets/imgs/icon-cart.svg" alt="icon cart">
               <div class="c-btn__round--text rounded-circle">2</div>
+            </a>
+            <a href="#" class="ms-3 d-lg-none c-btn__menu">
+              <span></span>
+              <span></span>
+              <span></span>
             </a>
           </div>
         </div>
