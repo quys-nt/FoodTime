@@ -47,4 +47,12 @@
         </div>
       </div>
     </div>
+    <div class="c-header__sp js-menu__sp">
+      <div class="c-btn__cancel js-menu__close"></div>
+      <ul class="c-header__sp--nav">
+        <li class="c-header__sp--item"><a href="#" class="c-header__sp--link">Home</a></li>
+        <li class="c-header__sp--item"><a href="#" class="c-header__sp--link">Blog</a></li>
+        <li class="c-header__sp--item"><a href="#" class="c-header__sp--link">About us</a></li>
+      </ul>
+    </div>
   </header>
