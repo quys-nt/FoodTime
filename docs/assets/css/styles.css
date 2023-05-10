@@ -132,6 +132,30 @@ input {
   line-height: 2;
   color: #3F3F3F;
 }
+.c-header__sp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: #396C03;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.c-header__sp.show {
+  transform: translateX(0);
+}
+.c-header__sp--nav {
+  list-style-type: none;
+  margin-top: 50px;
+}
+.c-header__sp--item {
+  margin-bottom: 20px;
+}
+.c-header__sp--link {
+  color: #fff;
+}
 
 .c-footer {
   background-color: #224300;
@@ -279,6 +303,28 @@ input {
 .c-btn__menu span:last-child {
   top: auto;
   bottom: 0;
+}
+.c-btn__cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.c-btn__cancel::before, .c-btn__cancel::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.c-btn__cancel::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.c-btn__cancel::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 button .c-btn__primary {
