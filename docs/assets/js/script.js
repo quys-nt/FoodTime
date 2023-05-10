@@ -12,3 +12,11 @@ if (!!window.IntersectionObserver) {
 else {
   $('.c-inv').addClass('show');
 }
+
+$('.js-menu__open').click(function() {
+  $('.js-menu__sp').addClass('show');
+});
+
+$('.js-menu__close').click(function() {
+  $('.js-menu__sp').removeClass('show');
+});
